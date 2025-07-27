@@ -9,7 +9,7 @@ use Kanuni\FilamentCards\Enums\Alignment;
 
 abstract class CardsPage extends Page
 {
-    protected static string $view = 'filament-cards::pages.cards-page';
+    protected string $view = 'filament-cards::pages.cards-page';
 
     protected function getViewData(): array
     {
